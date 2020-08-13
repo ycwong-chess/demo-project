@@ -3,7 +3,23 @@
 }
 
 body{
-  background-color: blue;
+  background-color: white;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(78, 170, 170)
+}
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
 }
 
 .App-logo {
