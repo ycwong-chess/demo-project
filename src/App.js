@@ -5,7 +5,7 @@ import './App.css';
 import Nav from './Nav';
 import About from './About';
 import Quiz from './Quiz';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -13,9 +13,9 @@ function App() {
     <div className="App">
       <Nav />
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/quiz" component={Quiz} />
+        <Route path="/demo-project" exact component={Home} />
+        <Route path="/demo-project/about" component={About} />
+        <Route path="/demo-project/quiz" component={Quiz} />
       </Switch>
     </div>
     </Router>
